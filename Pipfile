@@ -11,6 +11,7 @@ Flask = "*"
 Flask-Common = "*"
 meinheld = "*"
 werkzeug = ">=0.14.1"
+raven = { extras = [ "flask",] }
 
-[packages.raven]
-extras = [ "flask",]
+[dev-packages]
+zappa = "*"
